@@ -9,6 +9,9 @@ export default function handler(req, res) {
     if (count <= 10) {
         const jokes = [
             "Bist wohl nicht so gefragt.",
+            "Keiner will dich",
+            "Nicht schlecht, dachte bist Bonnie Blue",
+            "Nicht mal Loch im Puff bekommen, krank.",
             "Da warst du wohl die letzte Wahl.",
             "Vielleicht mal duschen gehen?",
             "Dachte echt, da geht mehr. Liegt wohl am Gesicht."
@@ -18,6 +21,7 @@ export default function handler(req, res) {
     else if (count <= 30) {
         const jokes = [
             "Ganz schön aktiv unterwegs.",
+            "Du Kah, chill",
             "Einer hat Tinder Premium wohl durchgespielt.",
             "Lil Dorfmatratze.",
             "Einer hat 'All you can fick' zu ernst genommen."
