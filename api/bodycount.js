@@ -11,7 +11,7 @@ export default function handler(req, res) {
             "Bist wohl nicht so gefragt.",
             "Da warst du wohl die letzte Wahl.",
             "Vielleicht mal duschen gehen?",
-            "Dachte echt, da geht mehr. Liegt bestimmt am Gesicht."
+            "Dachte echt, da geht mehr. Liegt wohl am Gesicht."
         ];
         message = jokes[Math.floor(Math.random() * jokes.length)];
     } 
@@ -19,14 +19,14 @@ export default function handler(req, res) {
         const jokes = [
             "Ganz schön aktiv unterwegs.",
             "Einer hat Tinder Premium wohl durchgespielt.",
-            "Ordentliche Leistung für das Dorf.",
-            "Einer hat 'All you can eat' zu ernst genommen."
+            "Lil Dorfmatratze.",
+            "Einer hat 'All you can fick' zu ernst genommen."
         ];
         message = jokes[Math.floor(Math.random() * jokes.length)];
     } 
     else if (count <= 50) {
         const jokes = [
-            "Einer sammelt wohl Treuepunkte.",
+            "Einer sammelt Bodys wie Treuepunkte.",
             "Nickname: Schwarzes Loch oder so?",
             "Einer ist über den Ex wohl nicht hinweggekommen.",
             "Da scheinen wohl Daddy oder Mommy Issues vorzuliegen."
@@ -36,18 +36,18 @@ export default function handler(req, res) {
     else if (count <= 70) {
         const jokes = [
             "Das Schlafzimmer ist wohl zum Hotel geworden.",
-            "Eigener Betrieb zuhause oder was?",
+            "Eigener Puff zuhause oder was?",
             "Beworben auf die Stelle 'Dorfmatratze des Jahres'.",
-            "Mach gleich einen Kanal auf und sei Papas ganzer Stolz."
+            "Mach gleich einen OF Kanal auf und sei Papas ganzer Stolz."
         ];
         message = jokes[Math.floor(Math.random() * jokes.length)];
     } 
     else {
         const jokes = [
-            "Wohl eher der Bodycount von nur einer Woche.",
-            "Wie ein gebrauchter Wagen mit 400k km und Unfallschaden.",
-            "Vielleicht solltest du ein eigenes Unternehmen gründen.",
-            "Wie willst du das später mal deinen Kindern erzählen?"
+            "Wohl eher der Bodycount in einer Woche.",
+            "VW Polo mit 400k km und Unfallschaden.",
+            "Vielleicht solltest du ein eigenes Escort Unternehmen gründen.",
+            "Wie willst du das später mal deinen Kindern erklären?"
         ];
         message = jokes[Math.floor(Math.random() * jokes.length)];
     }
